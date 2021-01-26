@@ -179,6 +179,7 @@
 		FA2C1645258C4AEF007FD1B2 /* AJRFoundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AJRFoundation.xcodeproj; path = "/Users/alex/New Source/Frameworks/AJRFoundation/AJRFoundation.xcodeproj"; sourceTree = "<absolute>"; };
 		FA2C1648258C4AF0007FD1B2 /* AJRInterfaceFoundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AJRInterfaceFoundation.xcodeproj; path = "/Users/alex/New Source/Frameworks/AJRInterfaceFoundation/AJRInterfaceFoundation.xcodeproj"; sourceTree = "<absolute>"; };
 		FA2C164B258C4AF0007FD1B2 /* AJRInterface.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AJRInterface.xcodeproj; path = "/Users/alex/New Source/Frameworks/AJRInterface/AJRInterface.xcodeproj"; sourceTree = "<absolute>"; };
+		FA8E36CF25C0D50900EB554F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FAD9250A25AEA66200079DAB /* AI-Explorer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AI-Explorer-Bridging-Header.h"; sourceTree = "<group>"; };
 		FAD9250B25AEA66300079DAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -216,6 +217,7 @@
 		FA2C15F3258C4A2C007FD1B2 = {
 			isa = PBXGroup;
 			children = (
+				FA8E36CF25C0D50900EB554F /* README.md */,
 				FA2C15FE258C4A2D007FD1B2 /* AI Explorer */,
 				FA2C1613258C4A31007FD1B2 /* AI ExplorerTests */,
 				FA2C161E258C4A31007FD1B2 /* AI ExplorerUITests */,
