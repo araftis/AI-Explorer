@@ -1,0 +1,926 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA18B52B25AEA48C000DEF0C /* AIExplorer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA18B52925AEA482000DEF0C /* AIExplorer.framework */; };
+		FA2C1606258C4A31007FD1B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2C1605258C4A31007FD1B2 /* Assets.xcassets */; };
+		FA2C1609258C4A31007FD1B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2C1607258C4A31007FD1B2 /* Main.storyboard */; };
+		FA2C1615258C4A31007FD1B2 /* NNExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C1614258C4A31007FD1B2 /* NNExplorerTests.swift */; };
+		FA2C1620258C4A31007FD1B2 /* NNExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C161F258C4A31007FD1B2 /* NNExplorerUITests.swift */; };
+		FA2C180B258F0B52007FD1B2 /* AJRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2C165D258C4AF0007FD1B2 /* AJRFoundation.framework */; };
+		FA2C180C258F0B52007FD1B2 /* AJRInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2C1668258C4AF0007FD1B2 /* AJRInterface.framework */; };
+		FA2C180D258F0B52007FD1B2 /* AJRInterfaceFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2C1674258C4AF0007FD1B2 /* AJRInterfaceFoundation.framework */; };
+		FA2C180E258F0B52007FD1B2 /* Draw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2C1680258C4AF0007FD1B2 /* Draw.framework */; };
+		FAD9250C25AEA66300079DAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9250B25AEA66300079DAB /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA2C1611258C4A31007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C15F4258C4A2C007FD1B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2C15FB258C4A2D007FD1B2;
+			remoteInfo = "NN Explorer";
+		};
+		FA2C161C258C4A31007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C15F4258C4A2C007FD1B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2C15FB258C4A2D007FD1B2;
+			remoteInfo = "NN Explorer";
+		};
+		FA2C165C258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C1645258C4AEF007FD1B2 /* AJRFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = AJRFoundation;
+		};
+		FA2C165E258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C1645258C4AEF007FD1B2 /* AJRFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA2AC5CE196615000052EB20;
+			remoteInfo = AJRFoundationTouch;
+		};
+		FA2C1660258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C1645258C4AEF007FD1B2 /* AJRFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA53B77517A2D87F0009D370;
+			remoteInfo = "AJRFoundation Tests";
+		};
+		FA2C1662258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C1645258C4AEF007FD1B2 /* AJRFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA5B950E20CA3FFA00B01849;
+			remoteInfo = AJRPlugInManagerTestBundle;
+		};
+		FA2C1667258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C164B258C4AF0007FD1B2 /* AJRInterface.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = AJRInterface;
+		};
+		FA2C1669258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C164B258C4AF0007FD1B2 /* AJRInterface.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA0587BD192FE152002913B6;
+			remoteInfo = AJRInterfaceTests;
+		};
+		FA2C166B258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C164B258C4AF0007FD1B2 /* AJRInterface.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA76ABB9221D4496008FA786;
+			remoteInfo = AJRMiniBrowser;
+		};
+		FA2C1673258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C1648258C4AF0007FD1B2 /* AJRInterfaceFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA4FE51020AD46690008257B;
+			remoteInfo = AJRInterfaceFoundation;
+		};
+		FA2C1675258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C1648258C4AF0007FD1B2 /* AJRInterfaceFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA4F23422209323900AB64C2;
+			remoteInfo = AJRInterfaceFoundationCocoaTouch;
+		};
+		FA2C1677258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C1648258C4AF0007FD1B2 /* AJRInterfaceFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA4F23772209329300AB64C2;
+			remoteInfo = AJRInterfaceFoundationTV;
+		};
+		FA2C1679258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C1648258C4AF0007FD1B2 /* AJRInterfaceFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA4F23AC220932B600AB64C2;
+			remoteInfo = AJRInterfaceFoundationWatch;
+		};
+		FA2C167B258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C1648258C4AF0007FD1B2 /* AJRInterfaceFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA4FE51920AD46690008257B;
+			remoteInfo = AJRInterfaceFoundationTests;
+		};
+		FA2C167F258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C1642258C4AEF007FD1B2 /* Draw.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA460852138318CD0051A3B1;
+			remoteInfo = Draw;
+		};
+		FA2C1681258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C1642258C4AEF007FD1B2 /* Draw.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA1D8F161939490F008690DD;
+			remoteInfo = "Draw Tests";
+		};
+		FA2C180F258F0B5D007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C1642258C4AEF007FD1B2 /* Draw.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FA460851138318CD0051A3B1;
+			remoteInfo = Draw;
+		};
+		FA2C1811258F0B5D007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C1645258C4AEF007FD1B2 /* AJRFoundation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = AJRFoundation;
+		};
+		FA2C1813258F0B5D007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C1648258C4AF0007FD1B2 /* AJRInterfaceFoundation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FA4FE50F20AD46690008257B;
+			remoteInfo = AJRInterfaceFoundation;
+		};
+		FA2C1815258F0B5D007FD1B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C164B258C4AF0007FD1B2 /* AJRInterface.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = AJRInterface;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA18B52925AEA482000DEF0C /* AIExplorer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AIExplorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2C15FC258C4A2D007FD1B2 /* AI Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2C1605258C4A31007FD1B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA2C1608258C4A31007FD1B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA2C160A258C4A31007FD1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2C160B258C4A31007FD1B2 /* AIExplorer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AIExplorer.entitlements; sourceTree = "<group>"; };
+		FA2C1610258C4A31007FD1B2 /* AI ExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI ExplorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2C1614258C4A31007FD1B2 /* NNExplorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNExplorerTests.swift; sourceTree = "<group>"; };
+		FA2C1616258C4A31007FD1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2C161B258C4A31007FD1B2 /* AI ExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI ExplorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2C161F258C4A31007FD1B2 /* NNExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNExplorerUITests.swift; sourceTree = "<group>"; };
+		FA2C1621258C4A31007FD1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2C1642258C4AEF007FD1B2 /* Draw.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Draw.xcodeproj; path = "/Users/alex/New Source/Frameworks/Draw/Draw.xcodeproj"; sourceTree = "<absolute>"; };
+		FA2C1645258C4AEF007FD1B2 /* AJRFoundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AJRFoundation.xcodeproj; path = "/Users/alex/New Source/Frameworks/AJRFoundation/AJRFoundation.xcodeproj"; sourceTree = "<absolute>"; };
+		FA2C1648258C4AF0007FD1B2 /* AJRInterfaceFoundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AJRInterfaceFoundation.xcodeproj; path = "/Users/alex/New Source/Frameworks/AJRInterfaceFoundation/AJRInterfaceFoundation.xcodeproj"; sourceTree = "<absolute>"; };
+		FA2C164B258C4AF0007FD1B2 /* AJRInterface.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AJRInterface.xcodeproj; path = "/Users/alex/New Source/Frameworks/AJRInterface/AJRInterface.xcodeproj"; sourceTree = "<absolute>"; };
+		FAD9250A25AEA66200079DAB /* AI-Explorer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AI-Explorer-Bridging-Header.h"; sourceTree = "<group>"; };
+		FAD9250B25AEA66300079DAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA2C15F9258C4A2D007FD1B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2C180B258F0B52007FD1B2 /* AJRFoundation.framework in Frameworks */,
+				FA2C180C258F0B52007FD1B2 /* AJRInterface.framework in Frameworks */,
+				FA2C180D258F0B52007FD1B2 /* AJRInterfaceFoundation.framework in Frameworks */,
+				FA2C180E258F0B52007FD1B2 /* Draw.framework in Frameworks */,
+				FA18B52B25AEA48C000DEF0C /* AIExplorer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C160D258C4A31007FD1B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C1618258C4A31007FD1B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2C15F3258C4A2C007FD1B2 = {
+			isa = PBXGroup;
+			children = (
+				FA2C15FE258C4A2D007FD1B2 /* AI Explorer */,
+				FA2C1613258C4A31007FD1B2 /* AI ExplorerTests */,
+				FA2C161E258C4A31007FD1B2 /* AI ExplorerUITests */,
+				FA2C15FD258C4A2D007FD1B2 /* Products */,
+				FA2C1636258C4ABE007FD1B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2C15FD258C4A2D007FD1B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C15FC258C4A2D007FD1B2 /* AI Explorer.app */,
+				FA2C1610258C4A31007FD1B2 /* AI ExplorerTests.xctest */,
+				FA2C161B258C4A31007FD1B2 /* AI ExplorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2C15FE258C4A2D007FD1B2 /* AI Explorer */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C1605258C4A31007FD1B2 /* Assets.xcassets */,
+				FA2C1607258C4A31007FD1B2 /* Main.storyboard */,
+				FA2C160A258C4A31007FD1B2 /* Info.plist */,
+				FA2C160B258C4A31007FD1B2 /* AIExplorer.entitlements */,
+				FAD9250B25AEA66300079DAB /* AppDelegate.swift */,
+				FAD9250A25AEA66200079DAB /* AI-Explorer-Bridging-Header.h */,
+			);
+			path = "AI Explorer";
+			sourceTree = "<group>";
+		};
+		FA2C1613258C4A31007FD1B2 /* AI ExplorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C1614258C4A31007FD1B2 /* NNExplorerTests.swift */,
+				FA2C1616258C4A31007FD1B2 /* Info.plist */,
+			);
+			path = "AI ExplorerTests";
+			sourceTree = "<group>";
+		};
+		FA2C161E258C4A31007FD1B2 /* AI ExplorerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C161F258C4A31007FD1B2 /* NNExplorerUITests.swift */,
+				FA2C1621258C4A31007FD1B2 /* Info.plist */,
+			);
+			path = "AI ExplorerUITests";
+			sourceTree = "<group>";
+		};
+		FA2C1636258C4ABE007FD1B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA18B52925AEA482000DEF0C /* AIExplorer.framework */,
+				FA2C1642258C4AEF007FD1B2 /* Draw.xcodeproj */,
+				FA2C1645258C4AEF007FD1B2 /* AJRFoundation.xcodeproj */,
+				FA2C1648258C4AF0007FD1B2 /* AJRInterfaceFoundation.xcodeproj */,
+				FA2C164B258C4AF0007FD1B2 /* AJRInterface.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA2C1643258C4AEF007FD1B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C1680258C4AF0007FD1B2 /* Draw.framework */,
+				FA2C1682258C4AF0007FD1B2 /* Draw Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2C1646258C4AEF007FD1B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C165D258C4AF0007FD1B2 /* AJRFoundation.framework */,
+				FA2C165F258C4AF0007FD1B2 /* AJRFoundation.framework */,
+				FA2C1661258C4AF0007FD1B2 /* AJRFoundation Tests.xctest */,
+				FA2C1663258C4AF0007FD1B2 /* AJRPlugInManagerTestBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2C1649258C4AF0007FD1B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C1674258C4AF0007FD1B2 /* AJRInterfaceFoundation.framework */,
+				FA2C1676258C4AF0007FD1B2 /* AJRInterfaceFoundation.framework */,
+				FA2C1678258C4AF0007FD1B2 /* AJRInterfaceFoundation.framework */,
+				FA2C167A258C4AF0007FD1B2 /* AJRInterfaceFoundation.framework */,
+				FA2C167C258C4AF0007FD1B2 /* AJRInterfaceFoundationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2C164C258C4AF0007FD1B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C1668258C4AF0007FD1B2 /* AJRInterface.framework */,
+				FA2C166A258C4AF0007FD1B2 /* AJRInterfaceTests.xctest */,
+				FA2C166C258C4AF0007FD1B2 /* AJRMiniBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA2C15FB258C4A2D007FD1B2 /* AI Explorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2C1624258C4A31007FD1B2 /* Build configuration list for PBXNativeTarget "AI Explorer" */;
+			buildPhases = (
+				FA2C15F8258C4A2D007FD1B2 /* Sources */,
+				FA2C15F9258C4A2D007FD1B2 /* Frameworks */,
+				FA2C15FA258C4A2D007FD1B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2C1810258F0B5D007FD1B2 /* PBXTargetDependency */,
+				FA2C1812258F0B5D007FD1B2 /* PBXTargetDependency */,
+				FA2C1814258F0B5D007FD1B2 /* PBXTargetDependency */,
+				FA2C1816258F0B5D007FD1B2 /* PBXTargetDependency */,
+			);
+			name = "AI Explorer";
+			productName = "NN Explorer";
+			productReference = FA2C15FC258C4A2D007FD1B2 /* AI Explorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA2C160F258C4A31007FD1B2 /* AI ExplorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2C1627258C4A31007FD1B2 /* Build configuration list for PBXNativeTarget "AI ExplorerTests" */;
+			buildPhases = (
+				FA2C160C258C4A31007FD1B2 /* Sources */,
+				FA2C160D258C4A31007FD1B2 /* Frameworks */,
+				FA2C160E258C4A31007FD1B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2C1612258C4A31007FD1B2 /* PBXTargetDependency */,
+			);
+			name = "AI ExplorerTests";
+			productName = "NN ExplorerTests";
+			productReference = FA2C1610258C4A31007FD1B2 /* AI ExplorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA2C161A258C4A31007FD1B2 /* AI ExplorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2C162A258C4A31007FD1B2 /* Build configuration list for PBXNativeTarget "AI ExplorerUITests" */;
+			buildPhases = (
+				FA2C1617258C4A31007FD1B2 /* Sources */,
+				FA2C1618258C4A31007FD1B2 /* Frameworks */,
+				FA2C1619258C4A31007FD1B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2C161D258C4A31007FD1B2 /* PBXTargetDependency */,
+			);
+			name = "AI ExplorerUITests";
+			productName = "NN ExplorerUITests";
+			productReference = FA2C161B258C4A31007FD1B2 /* AI ExplorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2C15F4258C4A2C007FD1B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					FA2C15FB258C4A2D007FD1B2 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+					FA2C160F258C4A31007FD1B2 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = FA2C15FB258C4A2D007FD1B2;
+					};
+					FA2C161A258C4A31007FD1B2 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = FA2C15FB258C4A2D007FD1B2;
+					};
+				};
+			};
+			buildConfigurationList = FA2C15F7258C4A2C007FD1B2 /* Build configuration list for PBXProject "AI Explorer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA2C15F3258C4A2C007FD1B2;
+			productRefGroup = FA2C15FD258C4A2D007FD1B2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FA2C1646258C4AEF007FD1B2 /* Products */;
+					ProjectRef = FA2C1645258C4AEF007FD1B2 /* AJRFoundation.xcodeproj */;
+				},
+				{
+					ProductGroup = FA2C164C258C4AF0007FD1B2 /* Products */;
+					ProjectRef = FA2C164B258C4AF0007FD1B2 /* AJRInterface.xcodeproj */;
+				},
+				{
+					ProductGroup = FA2C1649258C4AF0007FD1B2 /* Products */;
+					ProjectRef = FA2C1648258C4AF0007FD1B2 /* AJRInterfaceFoundation.xcodeproj */;
+				},
+				{
+					ProductGroup = FA2C1643258C4AEF007FD1B2 /* Products */;
+					ProjectRef = FA2C1642258C4AEF007FD1B2 /* Draw.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FA2C15FB258C4A2D007FD1B2 /* AI Explorer */,
+				FA2C160F258C4A31007FD1B2 /* AI ExplorerTests */,
+				FA2C161A258C4A31007FD1B2 /* AI ExplorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FA2C165D258C4AF0007FD1B2 /* AJRFoundation.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AJRFoundation.framework;
+			remoteRef = FA2C165C258C4AF0007FD1B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA2C165F258C4AF0007FD1B2 /* AJRFoundation.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AJRFoundation.framework;
+			remoteRef = FA2C165E258C4AF0007FD1B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA2C1661258C4AF0007FD1B2 /* AJRFoundation Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AJRFoundation Tests.xctest";
+			remoteRef = FA2C1660258C4AF0007FD1B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA2C1663258C4AF0007FD1B2 /* AJRPlugInManagerTestBundle.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AJRPlugInManagerTestBundle.bundle;
+			remoteRef = FA2C1662258C4AF0007FD1B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA2C1668258C4AF0007FD1B2 /* AJRInterface.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AJRInterface.framework;
+			remoteRef = FA2C1667258C4AF0007FD1B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA2C166A258C4AF0007FD1B2 /* AJRInterfaceTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AJRInterfaceTests.xctest;
+			remoteRef = FA2C1669258C4AF0007FD1B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA2C166C258C4AF0007FD1B2 /* AJRMiniBrowser.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = AJRMiniBrowser.app;
+			remoteRef = FA2C166B258C4AF0007FD1B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA2C1674258C4AF0007FD1B2 /* AJRInterfaceFoundation.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AJRInterfaceFoundation.framework;
+			remoteRef = FA2C1673258C4AF0007FD1B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA2C1676258C4AF0007FD1B2 /* AJRInterfaceFoundation.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AJRInterfaceFoundation.framework;
+			remoteRef = FA2C1675258C4AF0007FD1B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA2C1678258C4AF0007FD1B2 /* AJRInterfaceFoundation.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AJRInterfaceFoundation.framework;
+			remoteRef = FA2C1677258C4AF0007FD1B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA2C167A258C4AF0007FD1B2 /* AJRInterfaceFoundation.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AJRInterfaceFoundation.framework;
+			remoteRef = FA2C1679258C4AF0007FD1B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA2C167C258C4AF0007FD1B2 /* AJRInterfaceFoundationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AJRInterfaceFoundationTests.xctest;
+			remoteRef = FA2C167B258C4AF0007FD1B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA2C1680258C4AF0007FD1B2 /* Draw.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Draw.framework;
+			remoteRef = FA2C167F258C4AF0007FD1B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA2C1682258C4AF0007FD1B2 /* Draw Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Draw Tests.xctest";
+			remoteRef = FA2C1681258C4AF0007FD1B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA2C15FA258C4A2D007FD1B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2C1606258C4A31007FD1B2 /* Assets.xcassets in Resources */,
+				FA2C1609258C4A31007FD1B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C160E258C4A31007FD1B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C1619258C4A31007FD1B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA2C15F8258C4A2D007FD1B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD9250C25AEA66300079DAB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C160C258C4A31007FD1B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2C1615258C4A31007FD1B2 /* NNExplorerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C1617258C4A31007FD1B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2C1620258C4A31007FD1B2 /* NNExplorerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA2C1612258C4A31007FD1B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2C15FB258C4A2D007FD1B2 /* AI Explorer */;
+			targetProxy = FA2C1611258C4A31007FD1B2 /* PBXContainerItemProxy */;
+		};
+		FA2C161D258C4A31007FD1B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2C15FB258C4A2D007FD1B2 /* AI Explorer */;
+			targetProxy = FA2C161C258C4A31007FD1B2 /* PBXContainerItemProxy */;
+		};
+		FA2C1810258F0B5D007FD1B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Draw;
+			targetProxy = FA2C180F258F0B5D007FD1B2 /* PBXContainerItemProxy */;
+		};
+		FA2C1812258F0B5D007FD1B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AJRFoundation;
+			targetProxy = FA2C1811258F0B5D007FD1B2 /* PBXContainerItemProxy */;
+		};
+		FA2C1814258F0B5D007FD1B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AJRInterfaceFoundation;
+			targetProxy = FA2C1813258F0B5D007FD1B2 /* PBXContainerItemProxy */;
+		};
+		FA2C1816258F0B5D007FD1B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AJRInterface;
+			targetProxy = FA2C1815258F0B5D007FD1B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA2C1607258C4A31007FD1B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2C1608258C4A31007FD1B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA2C1622258C4A31007FD1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA2C1623258C4A31007FD1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FA2C1625258C4A31007FD1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "AI Explorer/AIExplorer.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "AI Explorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajr.app.AIExplorer;
+				PRODUCT_MODULE_NAME = NNExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AI Explorer/AI-Explorer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA2C1626258C4A31007FD1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "AI Explorer/AIExplorer.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "AI Explorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajr.app.AIExplorer;
+				PRODUCT_MODULE_NAME = NNExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AI Explorer/AI-Explorer-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FA2C1628258C4A31007FD1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NN ExplorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ajr.application.NN-ExplorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI Explorer.app/Contents/MacOS/AI Explorer";
+			};
+			name = Debug;
+		};
+		FA2C1629258C4A31007FD1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NN ExplorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ajr.application.NN-ExplorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI Explorer.app/Contents/MacOS/AI Explorer";
+			};
+			name = Release;
+		};
+		FA2C162B258C4A31007FD1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NN ExplorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ajr.application.NN-ExplorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "NN Explorer";
+			};
+			name = Debug;
+		};
+		FA2C162C258C4A31007FD1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NN ExplorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ajr.application.NN-ExplorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "NN Explorer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA2C15F7258C4A2C007FD1B2 /* Build configuration list for PBXProject "AI Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2C1622258C4A31007FD1B2 /* Debug */,
+				FA2C1623258C4A31007FD1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2C1624258C4A31007FD1B2 /* Build configuration list for PBXNativeTarget "AI Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2C1625258C4A31007FD1B2 /* Debug */,
+				FA2C1626258C4A31007FD1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2C1627258C4A31007FD1B2 /* Build configuration list for PBXNativeTarget "AI ExplorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2C1628258C4A31007FD1B2 /* Debug */,
+				FA2C1629258C4A31007FD1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2C162A258C4A31007FD1B2 /* Build configuration list for PBXNativeTarget "AI ExplorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2C162B258C4A31007FD1B2 /* Debug */,
+				FA2C162C258C4A31007FD1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA2C15F4258C4A2C007FD1B2 /* Project object */;
+}
