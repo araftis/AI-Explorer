@@ -7,8 +7,10 @@
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
+			<key>LSTypeIsPackage</key>
+			<true/>
 			<key>CFBundleTypeName</key>
-			<string>Nerual Net Explorer</string>
+			<string>AI Explorer</string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>LSHandlerRank</key>
