@@ -1,5 +1,5 @@
 {
 	name = "OCR";
-	group = "Image";
+	group = "Text";
 	description = "Basic optical character recognition.";
 }
