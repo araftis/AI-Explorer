@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  AI Explorer
-//
-//  Created by AJ Raftis on 1/12/21.
-//
 
 import Cocoa
 import AIExplorer

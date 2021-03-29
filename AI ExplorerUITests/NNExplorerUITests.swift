@@ -1,9 +1,3 @@
-//
-//  NN_ExplorerUITests.swift
-//  NN ExplorerUITests
-//
-//  Created by AJ Raftis on 12/17/20.
-//
 
 import XCTest
 
