@@ -77,6 +77,11 @@
             isEnabled = "NO">
          </EnvironmentVariable>
          <EnvironmentVariable
+            key = "AIECodeGeneration"
+            value = "Debug"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
             key = "DrawDocument"
             value = "Debug"
             isEnabled = "YES">
