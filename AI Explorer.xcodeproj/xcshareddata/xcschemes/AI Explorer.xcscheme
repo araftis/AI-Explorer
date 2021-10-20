@@ -77,8 +77,8 @@
             isEnabled = "NO">
          </EnvironmentVariable>
          <EnvironmentVariable
-            key = "AIECodeGeneration"
-            value = "Debug"
+            key = "Test"
+            value = "NSKeyValueObservance:name"
             isEnabled = "YES">
          </EnvironmentVariable>
          <EnvironmentVariable
