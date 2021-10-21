@@ -77,8 +77,13 @@
             isEnabled = "NO">
          </EnvironmentVariable>
          <EnvironmentVariable
-            key = "Test"
-            value = "NSKeyValueObservance:name"
+            key = "DebugObservances"
+            value = "AIExplorer.AIECodeDefinition:name"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "DebugKVO"
+            value = "AIExplorer.AIEDocument:selectedCodeDefinition"
             isEnabled = "YES">
          </EnvironmentVariable>
          <EnvironmentVariable
