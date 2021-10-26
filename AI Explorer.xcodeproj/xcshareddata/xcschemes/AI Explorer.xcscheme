@@ -78,13 +78,13 @@
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "DebugObservances"
-            value = "AIExplorer.AIECodeDefinition:name"
-            isEnabled = "YES">
+            value = "AIExplorer.AIECodeDefinition:name;AIExplorer.AIEDocument:selectedCodeDefinition"
+            isEnabled = "NO">
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "DebugKVO"
             value = "AIExplorer.AIEDocument:selectedCodeDefinition"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "DrawDocument"
