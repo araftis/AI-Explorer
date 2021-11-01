@@ -78,23 +78,28 @@
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "DebugObservances"
-            value = "AIExplorer.AIECodeDefinition:library"
-            isEnabled = "YES">
+            value = "AIExplorer.AIECodeDefinition:name;AIExplorer.AIEDocument:selectedCodeDefinition"
+            isEnabled = "NO">
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "DebugKVO"
-            value = "AIExplorer.AIECodeDefinition:library"
-            isEnabled = "YES">
+            value = "AIExplorer.AIEDocument:selectedCodeDefinition"
+            isEnabled = "NO">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "AIECodeGeneration"
+            value = "Debug"
+            isEnabled = "NO">
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "DrawDocument"
             value = "Debug"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "DrawPlugIns"
             value = "Debug"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </EnvironmentVariable>
       </EnvironmentVariables>
       <AdditionalOptions>
