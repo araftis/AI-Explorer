@@ -377,6 +377,18 @@
                                                             <action selector="underline:" target="Ady-hI-5gd" id="FYS-2b-JAY"/>
                                                         </connections>
                                                     </menuItem>
+                                                    <menuItem title="Outline" id="oBC-tL-vzi">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="underline:" target="Ady-hI-5gd" id="MT3-BY-YzI"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Strikethrough" id="HtC-aG-FZY">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="underline:" target="Ady-hI-5gd" id="48B-bX-SCv"/>
+                                                        </connections>
+                                                    </menuItem>
                                                     <menuItem isSeparatorItem="YES" id="5gT-KC-WSO"/>
                                                     <menuItem title="Bigger" tag="3" keyEquivalent="+" id="Ptp-SP-VEL">
                                                         <connections>
