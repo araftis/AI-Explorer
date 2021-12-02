@@ -11,6 +11,8 @@
 			<array>
 				<string>nn</string>
 			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>Neural Net Document</string>
 			<key>CFBundleTypeName</key>
 			<string>AI Explorer Document</string>
 			<key>CFBundleTypeOSTypes</key>
@@ -66,8 +68,17 @@
 			</array>
 			<key>UTTypeDescription</key>
 			<string>Nerual Network Dcoument Package</string>
+			<key>UTTypeIconFile</key>
+			<string>Neural Net Document</string>
 			<key>UTTypeIcons</key>
-			<dict/>
+			<dict>
+				<key>UTTypeIconBackgroundName</key>
+				<string>Neural Net Document</string>
+				<key>UTTypeIconBadgeName</key>
+				<string>Neural Net Document</string>
+				<key>UTTypeIconText</key>
+				<string>AI Explorer Document</string>
+			</dict>
 			<key>UTTypeIdentifier</key>
 			<string>com.ajr.neuralnet</string>
 			<key>UTTypeTagSpecification</key>
