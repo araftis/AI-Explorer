@@ -16,6 +16,7 @@
 		218F4F2E271F7E9D00BD92BD /* AJRInterfaceFoundation.framework in Embedded Frameworks */ = {isa = PBXBuildFile; fileRef = 218F4F25271F7AC200BD92BD /* AJRInterfaceFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		218F4F2F271F7E9D00BD92BD /* AJRFoundation.framework in Embedded Frameworks */ = {isa = PBXBuildFile; fileRef = 218F4F23271F7AB300BD92BD /* AJRFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		218F4F30271F7E9D00BD92BD /* AIExplorer.framework in Embedded Frameworks */ = {isa = PBXBuildFile; fileRef = FA18B52925AEA482000DEF0C /* AIExplorer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		21E739CA275ADEC50021A581 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E739C9275ADEC50021A581 /* Test.m */; };
 		FA18B52B25AEA48C000DEF0C /* AIExplorer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA18B52925AEA482000DEF0C /* AIExplorer.framework */; };
 		FA2C1606258C4A31007FD1B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2C1605258C4A31007FD1B2 /* Assets.xcassets */; };
 		FA2C1609258C4A31007FD1B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2C1607258C4A31007FD1B2 /* Main.storyboard */; };
@@ -163,6 +164,8 @@
 		218F4F25271F7AC200BD92BD /* AJRInterfaceFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AJRInterfaceFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		218F4F27271F7ACD00BD92BD /* AJRInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AJRInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		218F4F29271F7AD700BD92BD /* Draw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Draw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21E739C8275ADEC50021A581 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Test.h; path = ../../../../.Trash/Test.h; sourceTree = "<group>"; };
+		21E739C9275ADEC50021A581 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test.m; path = ../../../../.Trash/Test.m; sourceTree = "<group>"; };
 		FA18B52925AEA482000DEF0C /* AIExplorer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AIExplorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2877092611790F00F5BBE8 /* Tools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tools; sourceTree = "<group>"; };
 		FA2877172611790F00F5BBE8 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
@@ -250,6 +253,8 @@
 				FA2C160A258C4A31007FD1B2 /* Info.plist */,
 				FA2C160B258C4A31007FD1B2 /* AIExplorer.entitlements */,
 				FAD9250B25AEA66300079DAB /* AppDelegate.swift */,
+				21E739C8275ADEC50021A581 /* Test.h */,
+				21E739C9275ADEC50021A581 /* Test.m */,
 				FAD9250A25AEA66200079DAB /* AI-Explorer-Bridging-Header.h */,
 			);
 			path = "AI Explorer";
@@ -583,6 +588,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAD9250C25AEA66300079DAB /* AppDelegate.swift in Sources */,
+				21E739CA275ADEC50021A581 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

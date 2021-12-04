@@ -69,15 +69,15 @@
 			<key>UTTypeDescription</key>
 			<string>Nerual Network Dcoument Package</string>
 			<key>UTTypeIconFile</key>
-			<string>Neural Net Document</string>
+			<string></string>
 			<key>UTTypeIcons</key>
 			<dict>
 				<key>UTTypeIconBackgroundName</key>
-				<string>Neural Net Document</string>
+				<string></string>
 				<key>UTTypeIconBadgeName</key>
-				<string>Neural Net Document</string>
+				<string></string>
 				<key>UTTypeIconText</key>
-				<string>AI Explorer Document</string>
+				<string></string>
 			</dict>
 			<key>UTTypeIdentifier</key>
 			<string>com.ajr.neuralnet</string>
