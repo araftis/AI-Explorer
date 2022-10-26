@@ -49,12 +49,12 @@
               <frame x="243" y="162" width="144" height="27"/>
               <aspects>
                 <beforeBackground ajr:id="SYz-xm-nsW" ajr:class="NSMutableArray">
-                  <DrawShadow ajr:id="Pgn-2P-aag" active="false">
+                  <shadow ajr:id="Pgn-2P-aag" active="false">
                     <shadow ajr:id="OhM-BB-tn2" ajr:class="NSShadow" blurRadius="10">
                       <color ajr:id="gGM-8L-rru" colorSpace="kCGColorSpaceGenericGray" white="0" alpha="0.25"/>
                       <offset width="0" height="-4"/>
                     </shadow>
-                  </DrawShadow>
+                  </shadow>
                 </beforeBackground>
                 <background ajr:id="vhP-Yl-ueJ" ajr:class="NSMutableArray">
                   <DrawColorFill ajr:id="IZS-6k-3tp" active="true" windingRule="0">
@@ -169,10 +169,10 @@
                   </text>
                 </afterBackground>
                 <foreground ajr:id="oLJ-fX-O2U" ajr:class="NSMutableArray">
-                  <DrawStroke ajr:id="nGn-Ty-PCu" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
+                  <stroke ajr:id="nGn-Ty-PCu" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
                     <color ajr:id="WrF-LV-1it" colorSpace="kCGColorSpaceGenericGrayGamma2_2" white="0" alpha="1"/>
                     <dash ajr:id="SAG-zh-aoP" pattern="" offset="0"/>
-                  </DrawStroke>
+                  </stroke>
                 </foreground>
               </aspects>
               <relatedGraphics ajr:id="Wve-hv-FWT" ajr:class="NSMutableSet">
@@ -188,12 +188,12 @@
                   </path>
                   <aspects>
                     <beforeBackground ajr:id="kKO-F0-VEW" ajr:class="NSMutableArray">
-                      <DrawShadow ajr:id="lA6-VY-dek" active="false">
+                      <shadow ajr:id="lA6-VY-dek" active="false">
                         <shadow ajr:id="bnp-bx-gMY" ajr:class="NSShadow" blurRadius="10">
                           <color ajr:ref="gGM-8L-rru"/>
                           <offset width="0" height="-4"/>
                         </shadow>
-                      </DrawShadow>
+                      </shadow>
                     </beforeBackground>
                     <background ajr:id="LIi-hM-X4S" ajr:class="NSMutableArray">
                       <DrawColorFill ajr:id="EV3-vP-HWB" active="true" windingRule="0">
@@ -201,10 +201,10 @@
                       </DrawColorFill>
                     </background>
                     <foreground ajr:id="8eZ-7t-ZJe" ajr:class="NSMutableArray">
-                      <DrawStroke ajr:id="4Z4-WA-FOJ" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
+                      <stroke ajr:id="4Z4-WA-FOJ" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
                         <color ajr:id="Htc-eG-I4J" colorSpace="kCGColorSpaceGenericGray" white="0" alpha="1"/>
                         <dash ajr:id="TgE-sd-v97" pattern="" offset="0"/>
-                      </DrawStroke>
+                      </stroke>
                     </foreground>
                     <afterForeground ajr:id="5xx-8D-Vo6" ajr:class="NSMutableArray">
                       <penBezierAspect ajr:id="krl-bA-9Wo" active="true"/>
@@ -214,12 +214,12 @@
                     <frame x="243" y="486" width="144" height="27"/>
                     <aspects>
                       <beforeBackground ajr:id="4E1-dC-mX7" ajr:class="NSMutableArray">
-                        <DrawShadow ajr:id="9gP-u8-RoZ" active="false">
+                        <shadow ajr:id="9gP-u8-RoZ" active="false">
                           <shadow ajr:id="Fbr-dz-5oi" ajr:class="NSShadow" blurRadius="10">
                             <color ajr:ref="gGM-8L-rru"/>
                             <offset width="0" height="-4"/>
                           </shadow>
-                        </DrawShadow>
+                        </shadow>
                       </beforeBackground>
                       <background ajr:id="ua2-bE-pTG" ajr:class="NSMutableArray">
                         <DrawColorFill ajr:id="L1K-qS-toX" active="true" windingRule="0">
@@ -345,10 +345,10 @@
                         </text>
                       </afterBackground>
                       <foreground ajr:id="BaZ-fh-pVS" ajr:class="NSMutableArray">
-                        <DrawStroke ajr:id="3uI-UW-7Rn" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
+                        <stroke ajr:id="3uI-UW-7Rn" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
                           <color ajr:ref="WrF-LV-1it"/>
                           <dash ajr:id="bVr-mr-83z" pattern="" offset="0"/>
-                        </DrawStroke>
+                        </stroke>
                       </foreground>
                     </aspects>
                     <relatedGraphics ajr:id="yoc-Dg-Yjt" ajr:class="NSMutableSet">
@@ -362,12 +362,12 @@
                         </path>
                         <aspects>
                           <beforeBackground ajr:id="ko7-6g-5nS" ajr:class="NSMutableArray">
-                            <DrawShadow ajr:id="LAu-4z-dN2" active="false">
+                            <shadow ajr:id="LAu-4z-dN2" active="false">
                               <shadow ajr:id="Tig-Md-4NX" ajr:class="NSShadow" blurRadius="10">
                                 <color ajr:ref="gGM-8L-rru"/>
                                 <offset width="0" height="-4"/>
                               </shadow>
-                            </DrawShadow>
+                            </shadow>
                           </beforeBackground>
                           <background ajr:id="Azz-4Y-8jB" ajr:class="NSMutableArray">
                             <DrawColorFill ajr:id="4LI-j0-psz" active="true" windingRule="0">
@@ -375,10 +375,10 @@
                             </DrawColorFill>
                           </background>
                           <foreground ajr:id="jlK-FV-pPc" ajr:class="NSMutableArray">
-                            <DrawStroke ajr:id="AHI-IP-XHT" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
+                            <stroke ajr:id="AHI-IP-XHT" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
                               <color ajr:ref="Htc-eG-I4J"/>
                               <dash ajr:id="ddX-vI-2Hy" pattern="" offset="0"/>
-                            </DrawStroke>
+                            </stroke>
                           </foreground>
                           <afterForeground ajr:id="XH6-VP-CTO" ajr:class="NSMutableArray">
                             <penBezierAspect ajr:id="sPj-7q-YUI" active="true"/>
@@ -388,12 +388,12 @@
                           <frame x="243" y="432" width="144" height="27"/>
                           <aspects>
                             <beforeBackground ajr:id="tEr-aF-7WG" ajr:class="NSMutableArray">
-                              <DrawShadow ajr:id="Cdk-lO-QDX" active="false">
+                              <shadow ajr:id="Cdk-lO-QDX" active="false">
                                 <shadow ajr:id="G5j-iE-rWu" ajr:class="NSShadow" blurRadius="10">
                                   <color ajr:ref="gGM-8L-rru"/>
                                   <offset width="0" height="-4"/>
                                 </shadow>
-                              </DrawShadow>
+                              </shadow>
                             </beforeBackground>
                             <background ajr:id="vdu-Lz-kLG" ajr:class="NSMutableArray">
                               <DrawColorFill ajr:id="c2S-Ow-Gci" active="true" windingRule="0">
@@ -526,10 +526,10 @@
                               </text>
                             </afterBackground>
                             <foreground ajr:id="Jjc-7c-gTE" ajr:class="NSMutableArray">
-                              <DrawStroke ajr:id="yJE-nV-FGu" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
+                              <stroke ajr:id="yJE-nV-FGu" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
                                 <color ajr:ref="WrF-LV-1it"/>
                                 <dash ajr:id="Ds9-0V-Wu5" pattern="" offset="0"/>
-                              </DrawStroke>
+                              </stroke>
                             </foreground>
                           </aspects>
                           <relatedGraphics ajr:id="ZLA-Mq-cg1" ajr:class="NSMutableSet">
@@ -543,12 +543,12 @@
                               </path>
                               <aspects>
                                 <beforeBackground ajr:id="ORY-VI-rHo" ajr:class="NSMutableArray">
-                                  <DrawShadow ajr:id="pKk-X2-Uer" active="false">
+                                  <shadow ajr:id="pKk-X2-Uer" active="false">
                                     <shadow ajr:id="x2f-Ku-hWY" ajr:class="NSShadow" blurRadius="10">
                                       <color ajr:ref="gGM-8L-rru"/>
                                       <offset width="0" height="-4"/>
                                     </shadow>
-                                  </DrawShadow>
+                                  </shadow>
                                 </beforeBackground>
                                 <background ajr:id="vwP-Rs-Bff" ajr:class="NSMutableArray">
                                   <DrawColorFill ajr:id="McB-mc-Jg5" active="true" windingRule="0">
@@ -556,10 +556,10 @@
                                   </DrawColorFill>
                                 </background>
                                 <foreground ajr:id="A2u-mw-dY9" ajr:class="NSMutableArray">
-                                  <DrawStroke ajr:id="xhe-id-Yvv" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
+                                  <stroke ajr:id="xhe-id-Yvv" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
                                     <color ajr:ref="Htc-eG-I4J"/>
                                     <dash ajr:id="o3Z-D3-ZrN" pattern="" offset="0"/>
-                                  </DrawStroke>
+                                  </stroke>
                                 </foreground>
                                 <afterForeground ajr:id="4G3-oH-m5f" ajr:class="NSMutableArray">
                                   <penBezierAspect ajr:id="BRK-Hf-Duh" active="true"/>
@@ -569,12 +569,12 @@
                                 <frame x="243" y="378" width="144" height="27"/>
                                 <aspects>
                                   <beforeBackground ajr:id="qSX-fR-F2U" ajr:class="NSMutableArray">
-                                    <DrawShadow ajr:id="Es8-J2-7d9" active="false">
+                                    <shadow ajr:id="Es8-J2-7d9" active="false">
                                       <shadow ajr:id="uxQ-78-GDh" ajr:class="NSShadow" blurRadius="10">
                                         <color ajr:ref="gGM-8L-rru"/>
                                         <offset width="0" height="-4"/>
                                       </shadow>
-                                    </DrawShadow>
+                                    </shadow>
                                   </beforeBackground>
                                   <background ajr:id="0rF-Md-IOt" ajr:class="NSMutableArray">
                                     <DrawColorFill ajr:id="W1r-Qf-FkS" active="true" windingRule="0">
@@ -724,10 +724,10 @@
                                     </text>
                                   </afterBackground>
                                   <foreground ajr:id="qMY-1s-r6v" ajr:class="NSMutableArray">
-                                    <DrawStroke ajr:id="mKe-PG-Q99" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
+                                    <stroke ajr:id="mKe-PG-Q99" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
                                       <color ajr:ref="WrF-LV-1it"/>
                                       <dash ajr:id="gtj-gZ-bYy" pattern="" offset="0"/>
-                                    </DrawStroke>
+                                    </stroke>
                                   </foreground>
                                 </aspects>
                                 <relatedGraphics ajr:id="RrQ-GZ-w5E" ajr:class="NSMutableSet">
@@ -742,12 +742,12 @@
                                     </path>
                                     <aspects>
                                       <beforeBackground ajr:id="eGI-xw-akz" ajr:class="NSMutableArray">
-                                        <DrawShadow ajr:id="Nci-ri-aLf" active="false">
+                                        <shadow ajr:id="Nci-ri-aLf" active="false">
                                           <shadow ajr:id="4vj-Of-Z1M" ajr:class="NSShadow" blurRadius="10">
                                             <color ajr:ref="gGM-8L-rru"/>
                                             <offset width="0" height="-4"/>
                                           </shadow>
-                                        </DrawShadow>
+                                        </shadow>
                                       </beforeBackground>
                                       <background ajr:id="DAN-5p-Mr4" ajr:class="NSMutableArray">
                                         <DrawColorFill ajr:id="ZPj-bQ-mZ9" active="true" windingRule="0">
@@ -755,10 +755,10 @@
                                         </DrawColorFill>
                                       </background>
                                       <foreground ajr:id="7PX-2Z-GAa" ajr:class="NSMutableArray">
-                                        <DrawStroke ajr:id="zim-c2-YJ8" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
+                                        <stroke ajr:id="zim-c2-YJ8" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
                                           <color ajr:ref="Htc-eG-I4J"/>
                                           <dash ajr:id="cII-wC-dmk" pattern="" offset="0"/>
-                                        </DrawStroke>
+                                        </stroke>
                                       </foreground>
                                       <afterForeground ajr:id="PxJ-N4-Ibg" ajr:class="NSMutableArray">
                                         <penBezierAspect ajr:id="com-we-E3S" active="true"/>
@@ -768,12 +768,12 @@
                                       <frame x="243" y="324" width="144" height="27"/>
                                       <aspects>
                                         <beforeBackground ajr:id="LxO-lb-5at" ajr:class="NSMutableArray">
-                                          <DrawShadow ajr:id="zhR-sI-LgA" active="false">
+                                          <shadow ajr:id="zhR-sI-LgA" active="false">
                                             <shadow ajr:id="tPD-gn-BvG" ajr:class="NSShadow" blurRadius="10">
                                               <color ajr:ref="gGM-8L-rru"/>
                                               <offset width="0" height="-4"/>
                                             </shadow>
-                                          </DrawShadow>
+                                          </shadow>
                                         </beforeBackground>
                                         <background ajr:id="pZV-Vl-axA" ajr:class="NSMutableArray">
                                           <DrawColorFill ajr:id="5Za-2U-MMK" active="true" windingRule="0">
@@ -933,10 +933,10 @@
                                           </text>
                                         </afterBackground>
                                         <foreground ajr:id="vG5-0J-9xN" ajr:class="NSMutableArray">
-                                          <DrawStroke ajr:id="a2e-ME-ukn" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
+                                          <stroke ajr:id="a2e-ME-ukn" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
                                             <color ajr:ref="WrF-LV-1it"/>
                                             <dash ajr:id="7VN-gK-dhA" pattern="" offset="0"/>
-                                          </DrawStroke>
+                                          </stroke>
                                         </foreground>
                                       </aspects>
                                       <relatedGraphics ajr:id="vs3-tl-0VR" ajr:class="NSMutableSet">
@@ -951,12 +951,12 @@
                                           </path>
                                           <aspects>
                                             <beforeBackground ajr:id="o0Q-vI-lTd" ajr:class="NSMutableArray">
-                                              <DrawShadow ajr:id="Nvh-62-RML" active="false">
+                                              <shadow ajr:id="Nvh-62-RML" active="false">
                                                 <shadow ajr:id="iEL-Td-BKR" ajr:class="NSShadow" blurRadius="10">
                                                   <color ajr:ref="gGM-8L-rru"/>
                                                   <offset width="0" height="-4"/>
                                                 </shadow>
-                                              </DrawShadow>
+                                              </shadow>
                                             </beforeBackground>
                                             <background ajr:id="M5n-E3-mxU" ajr:class="NSMutableArray">
                                               <DrawColorFill ajr:id="ane-mU-5OP" active="true" windingRule="0">
@@ -964,10 +964,10 @@
                                               </DrawColorFill>
                                             </background>
                                             <foreground ajr:id="C8A-NC-vAc" ajr:class="NSMutableArray">
-                                              <DrawStroke ajr:id="CCr-kr-lmP" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
+                                              <stroke ajr:id="CCr-kr-lmP" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
                                                 <color ajr:ref="Htc-eG-I4J"/>
                                                 <dash ajr:id="myV-3B-cCB" pattern="" offset="0"/>
-                                              </DrawStroke>
+                                              </stroke>
                                             </foreground>
                                             <afterForeground ajr:id="uU4-7E-IKb" ajr:class="NSMutableArray">
                                               <penBezierAspect ajr:id="vjX-8t-8Mx" active="true"/>
@@ -977,12 +977,12 @@
                                             <frame x="243" y="270" width="144" height="27"/>
                                             <aspects>
                                               <beforeBackground ajr:id="z9x-nc-XQ9" ajr:class="NSMutableArray">
-                                                <DrawShadow ajr:id="aUi-u1-wpi" active="false">
+                                                <shadow ajr:id="aUi-u1-wpi" active="false">
                                                   <shadow ajr:id="VPY-GV-Gur" ajr:class="NSShadow" blurRadius="10">
                                                     <color ajr:ref="gGM-8L-rru"/>
                                                     <offset width="0" height="-4"/>
                                                   </shadow>
-                                                </DrawShadow>
+                                                </shadow>
                                               </beforeBackground>
                                               <background ajr:id="ZV2-mT-fq3" ajr:class="NSMutableArray">
                                                 <DrawColorFill ajr:id="8vZ-n3-Lpz" active="true" windingRule="0">
@@ -1168,10 +1168,10 @@
                                                 </text>
                                               </afterBackground>
                                               <foreground ajr:id="s2q-bF-hgf" ajr:class="NSMutableArray">
-                                                <DrawStroke ajr:id="Nrz-hZ-4cu" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
+                                                <stroke ajr:id="Nrz-hZ-4cu" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
                                                   <color ajr:ref="WrF-LV-1it"/>
                                                   <dash ajr:id="Yf2-lj-TMK" pattern="" offset="0"/>
-                                                </DrawStroke>
+                                                </stroke>
                                               </foreground>
                                             </aspects>
                                             <relatedGraphics ajr:id="H9o-Kh-5lD" ajr:class="NSMutableSet">
@@ -1186,12 +1186,12 @@
                                                 </path>
                                                 <aspects>
                                                   <beforeBackground ajr:id="U2x-hG-KIk" ajr:class="NSMutableArray">
-                                                    <DrawShadow ajr:id="8IN-wP-Ddp" active="false">
+                                                    <shadow ajr:id="8IN-wP-Ddp" active="false">
                                                       <shadow ajr:id="dGf-rH-711" ajr:class="NSShadow" blurRadius="10">
                                                         <color ajr:ref="gGM-8L-rru"/>
                                                         <offset width="0" height="-4"/>
                                                       </shadow>
-                                                    </DrawShadow>
+                                                    </shadow>
                                                   </beforeBackground>
                                                   <background ajr:id="Hfc-dV-ftz" ajr:class="NSMutableArray">
                                                     <DrawColorFill ajr:id="oak-w1-TGD" active="true" windingRule="0">
@@ -1199,10 +1199,10 @@
                                                     </DrawColorFill>
                                                   </background>
                                                   <foreground ajr:id="uTi-PC-Szk" ajr:class="NSMutableArray">
-                                                    <DrawStroke ajr:id="k7R-wv-FzN" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
+                                                    <stroke ajr:id="k7R-wv-FzN" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
                                                       <color ajr:ref="Htc-eG-I4J"/>
                                                       <dash ajr:id="Scz-pr-AoQ" pattern="" offset="0"/>
-                                                    </DrawStroke>
+                                                    </stroke>
                                                   </foreground>
                                                   <afterForeground ajr:id="8hi-Nb-sox" ajr:class="NSMutableArray">
                                                     <penBezierAspect ajr:id="S5V-oB-ObE" active="true"/>
@@ -1212,12 +1212,12 @@
                                                   <frame x="243" y="216" width="144" height="27"/>
                                                   <aspects>
                                                     <beforeBackground ajr:id="ZMc-8Y-Qab" ajr:class="NSMutableArray">
-                                                      <DrawShadow ajr:id="Spg-eV-JBA" active="false">
+                                                      <shadow ajr:id="Spg-eV-JBA" active="false">
                                                         <shadow ajr:id="2ts-A4-iQJ" ajr:class="NSShadow" blurRadius="10">
                                                           <color ajr:ref="gGM-8L-rru"/>
                                                           <offset width="0" height="-4"/>
                                                         </shadow>
-                                                      </DrawShadow>
+                                                      </shadow>
                                                     </beforeBackground>
                                                     <background ajr:id="79g-X6-lQs" ajr:class="NSMutableArray">
                                                       <DrawColorFill ajr:id="5AQ-Zn-OJh" active="true" windingRule="0">
@@ -1420,10 +1420,10 @@
                                                       </text>
                                                     </afterBackground>
                                                     <foreground ajr:id="ahy-UE-Whu" ajr:class="NSMutableArray">
-                                                      <DrawStroke ajr:id="4G1-ef-NXk" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
+                                                      <stroke ajr:id="4G1-ef-NXk" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
                                                         <color ajr:ref="WrF-LV-1it"/>
                                                         <dash ajr:id="dbP-hA-9gw" pattern="" offset="0"/>
-                                                      </DrawStroke>
+                                                      </stroke>
                                                     </foreground>
                                                   </aspects>
                                                   <relatedGraphics ajr:id="GTv-fO-j0r" ajr:class="NSMutableSet">
@@ -1437,12 +1437,12 @@
                                                       </path>
                                                       <aspects>
                                                         <beforeBackground ajr:id="ofI-eb-MiZ" ajr:class="NSMutableArray">
-                                                          <DrawShadow ajr:id="Hck-5z-Hyr" active="false">
+                                                          <shadow ajr:id="Hck-5z-Hyr" active="false">
                                                             <shadow ajr:id="HJC-dL-50v" ajr:class="NSShadow" blurRadius="10">
                                                               <color ajr:ref="gGM-8L-rru"/>
                                                               <offset width="0" height="-4"/>
                                                             </shadow>
-                                                          </DrawShadow>
+                                                          </shadow>
                                                         </beforeBackground>
                                                         <background ajr:id="lts-kO-ruI" ajr:class="NSMutableArray">
                                                           <DrawColorFill ajr:id="oIY-CB-x18" active="true" windingRule="0">
@@ -1450,10 +1450,10 @@
                                                           </DrawColorFill>
                                                         </background>
                                                         <foreground ajr:id="hJz-ze-lfa" ajr:class="NSMutableArray">
-                                                          <DrawStroke ajr:id="akK-68-75A" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
+                                                          <stroke ajr:id="akK-68-75A" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
                                                             <color ajr:ref="Htc-eG-I4J"/>
                                                             <dash ajr:id="mUL-8R-lkZ" pattern="" offset="0"/>
-                                                          </DrawStroke>
+                                                          </stroke>
                                                         </foreground>
                                                         <afterForeground ajr:id="i8S-ar-32B" ajr:class="NSMutableArray">
                                                           <penBezierAspect ajr:id="ASc-O8-f7W" active="true"/>
@@ -1533,12 +1533,12 @@
                               </path>
                               <aspects>
                                 <beforeBackground ajr:id="iDs-58-UuK" ajr:class="NSMutableArray">
-                                  <DrawShadow ajr:id="Stl-n8-DTt" active="true">
+                                  <shadow ajr:id="Stl-n8-DTt" active="true">
                                     <shadow ajr:id="rNk-JN-UX4" ajr:class="NSShadow" blurRadius="10">
                                       <color ajr:ref="gGM-8L-rru"/>
                                       <offset width="0" height="-4"/>
                                     </shadow>
-                                  </DrawShadow>
+                                  </shadow>
                                 </beforeBackground>
                                 <background ajr:id="LSs-wf-Fib" ajr:class="NSMutableArray">
                                   <DrawColorFill ajr:id="Lya-4q-Slt" active="true" windingRule="0">
@@ -1546,10 +1546,10 @@
                                   </DrawColorFill>
                                 </background>
                                 <foreground ajr:id="sYP-5n-84n" ajr:class="NSMutableArray">
-                                  <DrawStroke ajr:id="dbt-en-z6u" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
+                                  <stroke ajr:id="dbt-en-z6u" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
                                     <color ajr:ref="Htc-eG-I4J"/>
                                     <dash ajr:id="Yf7-hL-yQB" pattern="" offset="0"/>
-                                  </DrawStroke>
+                                  </stroke>
                                 </foreground>
                                 <afterForeground ajr:id="Bhh-Uw-hwZ" ajr:class="NSMutableArray">
                                   <penBezierAspect ajr:id="V7Y-ca-DJF" active="true"/>
@@ -1560,12 +1560,12 @@
                                 <frame x="243" y="486" width="144" height="27"/>
                                 <aspects>
                                   <beforeBackground ajr:id="nXQ-eD-1ZT" ajr:class="NSMutableArray">
-                                    <DrawShadow ajr:id="si0-8u-P1C" active="true">
+                                    <shadow ajr:id="si0-8u-P1C" active="true">
                                       <shadow ajr:id="9ND-ZV-ytP" ajr:class="NSShadow" blurRadius="10">
                                         <color ajr:ref="gGM-8L-rru"/>
                                         <offset width="0" height="-4"/>
                                       </shadow>
-                                    </DrawShadow>
+                                    </shadow>
                                   </beforeBackground>
                                   <background ajr:id="j3f-TS-XwL" ajr:class="NSMutableArray">
                                     <DrawColorFill ajr:id="4V7-CL-6yu" active="true" windingRule="0">
@@ -1715,10 +1715,10 @@
                                     </text>
                                   </afterBackground>
                                   <foreground ajr:id="cVl-ws-L0V" ajr:class="NSMutableArray">
-                                    <DrawStroke ajr:id="vMF-vy-tPa" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
+                                    <stroke ajr:id="vMF-vy-tPa" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
                                       <color ajr:ref="WrF-LV-1it"/>
                                       <dash ajr:id="FGj-L5-9Vy" pattern="" offset="0"/>
-                                    </DrawStroke>
+                                    </stroke>
                                   </foreground>
                                 </aspects>
                                 <relatedGraphics ajr:id="HBs-OF-45e" ajr:class="NSMutableSet">
@@ -1758,12 +1758,12 @@
                         </path>
                         <aspects>
                           <beforeBackground ajr:id="laM-yD-vhv" ajr:class="NSMutableArray">
-                            <DrawShadow ajr:id="89W-6x-Ph5" active="false">
+                            <shadow ajr:id="89W-6x-Ph5" active="false">
                               <shadow ajr:id="gEh-pv-zSh" ajr:class="NSShadow" blurRadius="10">
                                 <color ajr:ref="gGM-8L-rru"/>
                                 <offset width="0" height="-4"/>
                               </shadow>
-                            </DrawShadow>
+                            </shadow>
                           </beforeBackground>
                           <background ajr:id="fmd-eI-Ho1" ajr:class="NSMutableArray">
                             <DrawColorFill ajr:id="bax-pq-XzD" active="true" windingRule="0">
@@ -1771,10 +1771,10 @@
                             </DrawColorFill>
                           </background>
                           <foreground ajr:id="JpI-Ny-Ibl" ajr:class="NSMutableArray">
-                            <DrawStroke ajr:id="g6M-0H-lDw" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
+                            <stroke ajr:id="g6M-0H-lDw" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
                               <color ajr:ref="Htc-eG-I4J"/>
                               <dash ajr:id="9wD-CZ-EzV" pattern="" offset="0"/>
-                            </DrawStroke>
+                            </stroke>
                           </foreground>
                           <afterForeground ajr:id="Lhc-ck-5RX" ajr:class="NSMutableArray">
                             <penBezierAspect ajr:id="GfM-Aq-249" active="true"/>
@@ -1785,12 +1785,12 @@
                           <frame x="243" y="540" width="144" height="27"/>
                           <aspects>
                             <beforeBackground ajr:id="7u6-Mo-UVm" ajr:class="NSMutableArray">
-                              <DrawShadow ajr:id="IHx-cb-MtS" active="false">
+                              <shadow ajr:id="IHx-cb-MtS" active="false">
                                 <shadow ajr:id="vyh-Mi-Jxw" ajr:class="NSShadow" blurRadius="10">
                                   <color ajr:ref="gGM-8L-rru"/>
                                   <offset width="0" height="-4"/>
                                 </shadow>
-                              </DrawShadow>
+                              </shadow>
                             </beforeBackground>
                             <background ajr:id="9Ry-1Y-Que" ajr:class="NSMutableArray">
                               <DrawColorFill ajr:id="I44-XN-Mb5" active="true" windingRule="0">
@@ -1923,10 +1923,10 @@
                               </text>
                             </afterBackground>
                             <foreground ajr:id="rVL-TG-tHK" ajr:class="NSMutableArray">
-                              <DrawStroke ajr:id="iPR-1q-AbL" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
+                              <stroke ajr:id="iPR-1q-AbL" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
                                 <color ajr:ref="WrF-LV-1it"/>
                                 <dash ajr:id="oTb-I5-wfg" pattern="" offset="0"/>
-                              </DrawStroke>
+                              </stroke>
                             </foreground>
                           </aspects>
                           <relatedGraphics ajr:id="CzP-iF-m7X" ajr:class="NSMutableSet">
@@ -1968,12 +1968,12 @@
                   </path>
                   <aspects>
                     <beforeBackground ajr:id="IRc-Ag-JFt" ajr:class="NSMutableArray">
-                      <DrawShadow ajr:id="n8p-WS-z2K" active="false">
+                      <shadow ajr:id="n8p-WS-z2K" active="false">
                         <shadow ajr:id="3vR-dl-33f" ajr:class="NSShadow" blurRadius="10">
                           <color ajr:ref="gGM-8L-rru"/>
                           <offset width="0" height="-4"/>
                         </shadow>
-                      </DrawShadow>
+                      </shadow>
                     </beforeBackground>
                     <background ajr:id="a7v-Aw-kgi" ajr:class="NSMutableArray">
                       <DrawColorFill ajr:id="M3l-hY-F6J" active="true" windingRule="0">
@@ -1981,10 +1981,10 @@
                       </DrawColorFill>
                     </background>
                     <foreground ajr:id="tgj-pu-1dr" ajr:class="NSMutableArray">
-                      <DrawStroke ajr:id="M3x-2l-pw3" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
+                      <stroke ajr:id="M3x-2l-pw3" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
                         <color ajr:ref="Htc-eG-I4J"/>
                         <dash ajr:id="6Sl-zu-83b" pattern="" offset="0"/>
-                      </DrawStroke>
+                      </stroke>
                     </foreground>
                     <afterForeground ajr:id="Slu-vp-fR0" ajr:class="NSMutableArray">
                       <penBezierAspect ajr:id="fsL-Kh-P4i" active="true"/>
@@ -1994,12 +1994,12 @@
                     <frame x="243" y="108" width="144" height="27"/>
                     <aspects>
                       <beforeBackground ajr:id="zpV-nI-R1w" ajr:class="NSMutableArray">
-                        <DrawShadow ajr:id="CmJ-Kh-rh4" active="false">
+                        <shadow ajr:id="CmJ-Kh-rh4" active="false">
                           <shadow ajr:id="OGH-1U-sov" ajr:class="NSShadow" blurRadius="10">
                             <color ajr:ref="gGM-8L-rru"/>
                             <offset width="0" height="-4"/>
                           </shadow>
-                        </DrawShadow>
+                        </shadow>
                       </beforeBackground>
                       <background ajr:id="enQ-Db-zkJ" ajr:class="NSMutableArray">
                         <DrawColorFill ajr:id="uz2-Aa-872" active="true" windingRule="0">
@@ -2125,10 +2125,10 @@
                         </text>
                       </afterBackground>
                       <foreground ajr:id="7l4-od-kT9" ajr:class="NSMutableArray">
-                        <DrawStroke ajr:id="bIb-wd-G8E" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
+                        <stroke ajr:id="bIb-wd-G8E" active="true" width="2" miterLimit="10" lineJoin="0" lineCap="0">
                           <color ajr:ref="WrF-LV-1it"/>
                           <dash ajr:id="I5u-J4-74r" pattern="" offset="0"/>
-                        </DrawStroke>
+                        </stroke>
                       </foreground>
                     </aspects>
                     <relatedGraphics ajr:id="KBr-7f-hnQ" ajr:class="NSMutableSet">
@@ -2143,12 +2143,12 @@
                         </path>
                         <aspects>
                           <beforeBackground ajr:id="ku6-nb-8N3" ajr:class="NSMutableArray">
-                            <DrawShadow ajr:id="Rrf-i3-P4G" active="true">
+                            <shadow ajr:id="Rrf-i3-P4G" active="true">
                               <shadow ajr:id="WZ5-Mf-huL" ajr:class="NSShadow" blurRadius="10">
                                 <color ajr:ref="gGM-8L-rru"/>
                                 <offset width="0" height="-4"/>
                               </shadow>
-                            </DrawShadow>
+                            </shadow>
                           </beforeBackground>
                           <background ajr:id="VU7-pI-pQr" ajr:class="NSMutableArray">
                             <DrawColorFill ajr:id="2nX-zV-j80" active="true" windingRule="0">
@@ -2156,10 +2156,10 @@
                             </DrawColorFill>
                           </background>
                           <foreground ajr:id="YQV-3B-qTD" ajr:class="NSMutableArray">
-                            <DrawStroke ajr:id="HXK-cN-O0r" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
+                            <stroke ajr:id="HXK-cN-O0r" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
                               <color ajr:ref="Htc-eG-I4J"/>
                               <dash ajr:id="dgT-g0-v0b" pattern="" offset="0"/>
-                            </DrawStroke>
+                            </stroke>
                           </foreground>
                           <afterForeground ajr:id="U4u-h9-krq" ajr:class="NSMutableArray">
                             <penBezierAspect ajr:id="2vC-cU-5LU" active="true"/>
@@ -2188,12 +2188,12 @@
                         </path>
                         <aspects>
                           <beforeBackground ajr:id="RxC-qf-iLy" ajr:class="NSMutableArray">
-                            <DrawShadow ajr:id="Voe-B8-q4H" active="true">
+                            <shadow ajr:id="Voe-B8-q4H" active="true">
                               <shadow ajr:id="Ztu-QN-leo" ajr:class="NSShadow" blurRadius="10">
                                 <color ajr:ref="gGM-8L-rru"/>
                                 <offset width="0" height="-4"/>
                               </shadow>
-                            </DrawShadow>
+                            </shadow>
                           </beforeBackground>
                           <background ajr:id="Ya3-lG-iRl" ajr:class="NSMutableArray">
                             <DrawColorFill ajr:id="QPm-Id-yen" active="true" windingRule="0">
@@ -2201,10 +2201,10 @@
                             </DrawColorFill>
                           </background>
                           <foreground ajr:id="FBV-hJ-HVo" ajr:class="NSMutableArray">
-                            <DrawStroke ajr:id="zaJ-Kl-8HV" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
+                            <stroke ajr:id="zaJ-Kl-8HV" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
                               <color ajr:ref="Htc-eG-I4J"/>
                               <dash ajr:id="Ome-Dy-0Pk" pattern="" offset="0"/>
-                            </DrawStroke>
+                            </stroke>
                           </foreground>
                           <afterForeground ajr:id="6Xg-1x-ytg" ajr:class="NSMutableArray">
                             <penBezierAspect ajr:id="mFd-bu-Bgh" active="true"/>
@@ -2276,13 +2276,13 @@
     <frame x="0" y="0" width="0.01" height="0.01"/>
     <aspects>
       <beforeBackground ajr:id="3fr-VH-CBK" ajr:class="NSMutableArray">
-        <DrawShadow ajr:id="JZz-vx-tGd" active="true">
+        <shadow ajr:id="JZz-vx-tGd" active="true">
           <shadow ajr:id="nds-Zg-Li9" ajr:class="NSShadow" blurRadius="10">
             <color ajr:ref="gGM-8L-rru"/>
             <offset width="0" height="-4"/>
           </shadow>
-        </DrawShadow>
-        <DrawOpacity ajr:id="OV9-hE-Qx3" active="true" opacity="1"/>
+        </shadow>
+        <opacity ajr:id="OV9-hE-Qx3" active="true" opacity="1"/>
       </beforeBackground>
       <background ajr:id="YCt-pz-LuV" ajr:class="NSMutableArray">
         <DrawColorFill ajr:id="aiK-L2-2fC" active="true" windingRule="0">
@@ -2290,10 +2290,10 @@
         </DrawColorFill>
       </background>
       <foreground ajr:id="Q8R-Oa-1JB" ajr:class="NSMutableArray">
-        <DrawStroke ajr:id="ohs-V0-Ewu" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
+        <stroke ajr:id="ohs-V0-Ewu" active="true" width="1" miterLimit="10" lineJoin="0" lineCap="0">
           <color ajr:ref="Htc-eG-I4J"/>
           <dash ajr:id="6ky-5I-5Un" pattern="" offset="0"/>
-        </DrawStroke>
+        </stroke>
       </foreground>
     </aspects>
   </templateGraphic>
