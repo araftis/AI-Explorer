@@ -71,6 +71,12 @@
             ReferencedContainer = "container:AI Explorer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-NSConstraintBasedLayoutVisualizeMutuallyExclusiveConstraints YES"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "NSDeallocateZombies"
@@ -100,6 +106,11 @@
          <EnvironmentVariable
             key = "DrawPlugIns"
             value = "Debug"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "NSConstraintBasedLayoutVisualizeMutuallyExclusiveConstraints"
+            value = "YES"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>
