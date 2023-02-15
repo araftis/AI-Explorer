@@ -40,104 +40,6 @@
 			remoteGlobalIDString = FA2C15FB258C4A2D007FD1B2;
 			remoteInfo = "NN Explorer";
 		};
-		FA2C165C258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA2C1645258C4AEF007FD1B2 /* AJRFoundation.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
-			remoteInfo = AJRFoundation;
-		};
-		FA2C165E258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA2C1645258C4AEF007FD1B2 /* AJRFoundation.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA2AC5CE196615000052EB20;
-			remoteInfo = AJRFoundationTouch;
-		};
-		FA2C1660258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA2C1645258C4AEF007FD1B2 /* AJRFoundation.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA53B77517A2D87F0009D370;
-			remoteInfo = "AJRFoundation Tests";
-		};
-		FA2C1662258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA2C1645258C4AEF007FD1B2 /* AJRFoundation.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA5B950E20CA3FFA00B01849;
-			remoteInfo = AJRPlugInManagerTestBundle;
-		};
-		FA2C1667258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA2C164B258C4AF0007FD1B2 /* AJRInterface.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
-			remoteInfo = AJRInterface;
-		};
-		FA2C1669258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA2C164B258C4AF0007FD1B2 /* AJRInterface.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA0587BD192FE152002913B6;
-			remoteInfo = AJRInterfaceTests;
-		};
-		FA2C166B258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA2C164B258C4AF0007FD1B2 /* AJRInterface.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA76ABB9221D4496008FA786;
-			remoteInfo = AJRMiniBrowser;
-		};
-		FA2C1673258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA2C1648258C4AF0007FD1B2 /* AJRInterfaceFoundation.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA4FE51020AD46690008257B;
-			remoteInfo = AJRInterfaceFoundation;
-		};
-		FA2C1675258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA2C1648258C4AF0007FD1B2 /* AJRInterfaceFoundation.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA4F23422209323900AB64C2;
-			remoteInfo = AJRInterfaceFoundationCocoaTouch;
-		};
-		FA2C1677258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA2C1648258C4AF0007FD1B2 /* AJRInterfaceFoundation.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA4F23772209329300AB64C2;
-			remoteInfo = AJRInterfaceFoundationTV;
-		};
-		FA2C1679258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA2C1648258C4AF0007FD1B2 /* AJRInterfaceFoundation.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA4F23AC220932B600AB64C2;
-			remoteInfo = AJRInterfaceFoundationWatch;
-		};
-		FA2C167B258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA2C1648258C4AF0007FD1B2 /* AJRInterfaceFoundation.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA4FE51920AD46690008257B;
-			remoteInfo = AJRInterfaceFoundationTests;
-		};
-		FA2C167F258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA2C1642258C4AEF007FD1B2 /* Draw.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA460852138318CD0051A3B1;
-			remoteInfo = Draw;
-		};
-		FA2C1681258C4AF0007FD1B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA2C1642258C4AEF007FD1B2 /* Draw.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA1D8F161939490F008690DD;
-			remoteInfo = "Draw Tests";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -177,10 +79,6 @@
 		FA2C161B258C4A31007FD1B2 /* AI ExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI ExplorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2C161F258C4A31007FD1B2 /* NNExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNExplorerUITests.swift; sourceTree = "<group>"; };
 		FA2C1621258C4A31007FD1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA2C1642258C4AEF007FD1B2 /* Draw.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Draw.xcodeproj; path = "/Users/alex/New Source/Frameworks/Draw/Draw.xcodeproj"; sourceTree = "<absolute>"; };
-		FA2C1645258C4AEF007FD1B2 /* AJRFoundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AJRFoundation.xcodeproj; path = "/Users/alex/New Source/Frameworks/AJRFoundation/AJRFoundation.xcodeproj"; sourceTree = "<absolute>"; };
-		FA2C1648258C4AF0007FD1B2 /* AJRInterfaceFoundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AJRInterfaceFoundation.xcodeproj; path = "/Users/alex/New Source/Frameworks/AJRInterfaceFoundation/AJRInterfaceFoundation.xcodeproj"; sourceTree = "<absolute>"; };
-		FA2C164B258C4AF0007FD1B2 /* AJRInterface.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AJRInterface.xcodeproj; path = "/Users/alex/New Source/Frameworks/AJRInterface/AJRInterface.xcodeproj"; sourceTree = "<absolute>"; };
 		FA88825925F5EB7600DFE50B /* AIE Templates */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "AIE Templates"; sourceTree = "<group>"; };
 		FA8E36CF25C0D50900EB554F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FAD9250A25AEA66200079DAB /* AI-Explorer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AI-Explorer-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -281,54 +179,8 @@
 				218F4F25271F7AC200BD92BD /* AJRInterfaceFoundation.framework */,
 				218F4F23271F7AB300BD92BD /* AJRFoundation.framework */,
 				FA18B52925AEA482000DEF0C /* AIExplorer.framework */,
-				FA2C1642258C4AEF007FD1B2 /* Draw.xcodeproj */,
-				FA2C1645258C4AEF007FD1B2 /* AJRFoundation.xcodeproj */,
-				FA2C1648258C4AF0007FD1B2 /* AJRInterfaceFoundation.xcodeproj */,
-				FA2C164B258C4AF0007FD1B2 /* AJRInterface.xcodeproj */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FA2C1643258C4AEF007FD1B2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FA2C1680258C4AF0007FD1B2 /* Draw.framework */,
-				FA2C1682258C4AF0007FD1B2 /* Draw Tests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FA2C1646258C4AEF007FD1B2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FA2C165D258C4AF0007FD1B2 /* AJRFoundation.framework */,
-				FA2C165F258C4AF0007FD1B2 /* AJRFoundation.framework */,
-				FA2C1661258C4AF0007FD1B2 /* AJRFoundation Tests.xctest */,
-				FA2C1663258C4AF0007FD1B2 /* AJRPlugInManagerTestBundle.bundle */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FA2C1649258C4AF0007FD1B2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FA2C1674258C4AF0007FD1B2 /* AJRInterfaceFoundation.framework */,
-				FA2C1676258C4AF0007FD1B2 /* AJRInterfaceFoundation.framework */,
-				FA2C1678258C4AF0007FD1B2 /* AJRInterfaceFoundation.framework */,
-				FA2C167A258C4AF0007FD1B2 /* AJRInterfaceFoundation.framework */,
-				FA2C167C258C4AF0007FD1B2 /* AJRInterfaceFoundationTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FA2C164C258C4AF0007FD1B2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FA2C1668258C4AF0007FD1B2 /* AJRInterface.framework */,
-				FA2C166A258C4AF0007FD1B2 /* AJRInterfaceTests.xctest */,
-				FA2C166C258C4AF0007FD1B2 /* AJRMiniBrowser.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,24 +274,6 @@
 			mainGroup = FA2C15F3258C4A2C007FD1B2;
 			productRefGroup = FA2C15FD258C4A2D007FD1B2 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = FA2C1646258C4AEF007FD1B2 /* Products */;
-					ProjectRef = FA2C1645258C4AEF007FD1B2 /* AJRFoundation.xcodeproj */;
-				},
-				{
-					ProductGroup = FA2C164C258C4AF0007FD1B2 /* Products */;
-					ProjectRef = FA2C164B258C4AF0007FD1B2 /* AJRInterface.xcodeproj */;
-				},
-				{
-					ProductGroup = FA2C1649258C4AF0007FD1B2 /* Products */;
-					ProjectRef = FA2C1648258C4AF0007FD1B2 /* AJRInterfaceFoundation.xcodeproj */;
-				},
-				{
-					ProductGroup = FA2C1643258C4AEF007FD1B2 /* Products */;
-					ProjectRef = FA2C1642258C4AEF007FD1B2 /* Draw.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				FA2C15FB258C4A2D007FD1B2 /* AI Explorer */,
@@ -448,107 +282,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		FA2C165D258C4AF0007FD1B2 /* AJRFoundation.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AJRFoundation.framework;
-			remoteRef = FA2C165C258C4AF0007FD1B2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA2C165F258C4AF0007FD1B2 /* AJRFoundation.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AJRFoundation.framework;
-			remoteRef = FA2C165E258C4AF0007FD1B2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA2C1661258C4AF0007FD1B2 /* AJRFoundation Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "AJRFoundation Tests.xctest";
-			remoteRef = FA2C1660258C4AF0007FD1B2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA2C1663258C4AF0007FD1B2 /* AJRPlugInManagerTestBundle.bundle */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AJRPlugInManagerTestBundle.bundle;
-			remoteRef = FA2C1662258C4AF0007FD1B2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA2C1668258C4AF0007FD1B2 /* AJRInterface.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AJRInterface.framework;
-			remoteRef = FA2C1667258C4AF0007FD1B2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA2C166A258C4AF0007FD1B2 /* AJRInterfaceTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AJRInterfaceTests.xctest;
-			remoteRef = FA2C1669258C4AF0007FD1B2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA2C166C258C4AF0007FD1B2 /* AJRMiniBrowser.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = AJRMiniBrowser.app;
-			remoteRef = FA2C166B258C4AF0007FD1B2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA2C1674258C4AF0007FD1B2 /* AJRInterfaceFoundation.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AJRInterfaceFoundation.framework;
-			remoteRef = FA2C1673258C4AF0007FD1B2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA2C1676258C4AF0007FD1B2 /* AJRInterfaceFoundation.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AJRInterfaceFoundation.framework;
-			remoteRef = FA2C1675258C4AF0007FD1B2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA2C1678258C4AF0007FD1B2 /* AJRInterfaceFoundation.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AJRInterfaceFoundation.framework;
-			remoteRef = FA2C1677258C4AF0007FD1B2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA2C167A258C4AF0007FD1B2 /* AJRInterfaceFoundation.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AJRInterfaceFoundation.framework;
-			remoteRef = FA2C1679258C4AF0007FD1B2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA2C167C258C4AF0007FD1B2 /* AJRInterfaceFoundationTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AJRInterfaceFoundationTests.xctest;
-			remoteRef = FA2C167B258C4AF0007FD1B2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA2C1680258C4AF0007FD1B2 /* Draw.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Draw.framework;
-			remoteRef = FA2C167F258C4AF0007FD1B2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA2C1682258C4AF0007FD1B2 /* Draw Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Draw Tests.xctest";
-			remoteRef = FA2C1681258C4AF0007FD1B2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FA2C15FA258C4A2D007FD1B2 /* Resources */ = {
