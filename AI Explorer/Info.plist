@@ -75,9 +75,9 @@
 				<key>UTTypeIconBackgroundName</key>
 				<string></string>
 				<key>UTTypeIconBadgeName</key>
-				<string></string>
+				<string>Neural Net Document</string>
 				<key>UTTypeIconText</key>
-				<string></string>
+				<string>Neural Net Document</string>
 			</dict>
 			<key>UTTypeIdentifier</key>
 			<string>com.ajr.neuralnet</string>
@@ -100,7 +100,12 @@
 			<key>UTTypeDescription</key>
 			<string>Nerual Network Document Package</string>
 			<key>UTTypeIcons</key>
-			<dict/>
+			<dict>
+				<key>UTTypeIconBadgeName</key>
+				<string>Neural Net Document</string>
+				<key>UTTypeIconText</key>
+				<string>Neural Net Document</string>
+			</dict>
 			<key>UTTypeIdentifier</key>
 			<string>com.ajr.neuralnet</string>
 			<key>UTTypeTagSpecification</key>
